@@ -1,17 +1,16 @@
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
 }
 
 #cardbox {
-    width: 95vw;
-    height: 95vh;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 4px;
+    gap: 10px;
+}
 
 #card {
     width: 220px;
